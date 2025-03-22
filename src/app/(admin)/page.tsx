@@ -29,7 +29,7 @@ export default function Ecommerce() {
         <StatisticsChart />
       </div> */}
 
-      <div className="col-span-7 xl:col-span-8">
+      <div className="col-span-2 xl:col-span-7">
         <CalendarCard />
       </div>
     </div>
