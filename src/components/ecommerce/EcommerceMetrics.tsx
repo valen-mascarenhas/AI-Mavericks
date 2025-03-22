@@ -33,7 +33,7 @@ export const EcommerceMetrics = () => {
     <div className="flex justify-center w-full">
       <div className="grid grid-cols-3 gap-4 md:gap-6 w-7/10">
         {/* Employee Count */}
-        <div className="rounded-2xl border border-gray-200 bg-white p-3 md:p-4 h-32 dark:border-gray-800 dark:bg-white/[0.03]">
+        <div className="rounded-2xl border border-gray-200 bg-green-100 p-3 md:p-4 h-32 dark:border-gray-800 dark:bg-white/[0.03]">
           <div className="flex items-center justify-between">
             <div className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-xl dark:bg-gray-800">
               <GroupIcon className="text-gray-800 size-5 dark:text-white/90" />
@@ -54,7 +54,7 @@ export const EcommerceMetrics = () => {
         </div>
 
         {/* Orders Predicted */}
-        <div className="rounded-2xl border border-gray-200 bg-white p-3 md:p-4 h-32 dark:border-gray-800 dark:bg-white/[0.03]">
+        <div className="rounded-2xl border border-gray-200 bg-orange-100 p-3 md:p-4 h-32 dark:border-gray-800 dark:bg-white/[0.03]">
           <div className="flex items-center justify-center w-10 h-10 bg-gray-100 rounded-xl dark:bg-gray-800">
             <BoxIconLine className="text-gray-800 dark:text-white/90" />
           </div>
