@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjustment to Today's Food Order</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .icon {
+            margin-right: 10px;
+        }
+        p {
+            font-size: 16px;
+            text-align: left;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>&#128197; Adjustment to Today's Food Order</h2>
+        <p>Dear {{restaurantTeam}},</p>
+        <p>I hope you're doing well. I would like to make an adjustment to the food order for today, <strong>{{date}}</strong>. Please update the order as follows:</p>
+        <ul>
+            <li>&#127858; <strong>Lunch:</strong> {{lunch}} plates</li>
+            <li>&#127839; <strong>Snacks:</strong> {{snacks}} plates</li>
+            <li>&#9749; <strong>Tea:</strong> {{tea}} portions</li>
+            <li>&#9748; <strong>Coffee:</strong> {{coffee}} portions</li>
+        </ul>
+        <p>Thank you for your understanding. Please confirm the adjustment and let me know if there are any issues with the updated order.</p>
+        <p>Thank you again for your flexibility!</p>
+        <p><strong>Best regards,</strong></p>
+        <div class="footer">
+            <p><b>CafeAssist</b>,<br>Persistent Systems Limited.</p>
+        </div>
+    </div>
+</body>
+</html>
