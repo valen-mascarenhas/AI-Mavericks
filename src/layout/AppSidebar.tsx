@@ -53,8 +53,7 @@ const navItems: NavItem[] = [
     name: "Analytics",
     icon: <PageIcon />,
     subItems: [
-      { name: "Blank Page", path: "/blank", pro: false },
-      { name: "404 Error", path: "/error-404", pro: false },
+      { name: "Menu Analysis", path: "/bar-chart", pro: false },
     ],
   },
 ];
@@ -62,10 +61,9 @@ const navItems: NavItem[] = [
 const othersItems: NavItem[] = [
   {
     icon: <PieChartIcon />,
-    name: "Charts",
+    name: "Misc",
     subItems: [
-      { name: "Line Chart", path: "/line-chart", pro: false },
-      { name: "Bar Chart", path: "/bar-chart", pro: false },
+      { name: "Download Reports", path: "/line-chart", pro: false },
     ],
   }
 

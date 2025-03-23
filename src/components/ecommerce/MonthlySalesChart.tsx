@@ -120,10 +120,10 @@ export default function MonthlySalesChart() {
     <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white px-5 pt-5 dark:border-gray-800 dark:bg-white/[0.03] sm:px-6 sm:pt-6">
       <div className="flex items-center justify-between">
         <h3 className="text-lg font-semibold text-gray-800 dark:text-white/90">
-          Weekly Sales
+          Last Weeks Food Consumption
         </h3>
       </div>
-
+     <br></br> <br></br>
       <div className="max-w-full overflow-x-auto custom-scrollbar">
         <div className="-ml-5 min-w-[600px] xl:min-w-full pl-2">
           <ReactApexChart
